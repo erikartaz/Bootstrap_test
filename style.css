@@ -1,0 +1,21 @@
+.stripe-buttons {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.immagine {
+	padding: 5px;
+	border: 1px solid #f0f0f0;
+	
+}
+
+.footer-site {
+	text-align: center;
+	margin-top: 30px;
+	background-color: #ececec;
+	color: black;
+}
+
+.navbar-default .navbar-header .navbar-brand {
+	color: red;
+}

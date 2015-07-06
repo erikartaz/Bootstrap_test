@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang='it'>
+	<head>
+		<meta charset="utf-8">
+		<title>Bootstrap test</title>
+		<meta name="description" content="">
+		<meta name="author" content="Erik Artaz">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	</head>
+	<body>
+		<!-- Inizio codice -->
+		<div class="container">
+			<div class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar-content">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">MangoPI</a>
+					</div>
+					<div class="collapse navbar-collapse" id="mynavbar-content">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">Panoramica</a></li>
+							<li><a href="#">Temperature</a></li>
+							<li><a href="#">Carico</a></li>
+							<li><a href="#">Dischi</a></li>
+							<li><a href="#">Rete</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<hr>
+			
+			<div class="row">
+				<div class="col-md-6 box1">
+					<h3>Carico CPU (12h)</h3>
+					<p>Carico medio della CPU a 1min, 5min e 15min nelle ultime 12 ore</p>
+					<img class="immagine" src="cpu_12.png" alt="Carico CPU ultime 12h">
+				</div>
+				<div class="col-md-6 box2">
+					<h3>Prestazioni rete (12h)</h3>
+					<p>Prestazioni rete internet nelle ultime 12 ore</p>
+					<img class="immagine" src="net_12.png" alt="Prestazioni rete ultime 12h">
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-md-12 stripe-buttons">
+					<a href="#" class="btn btn-primary">Termina monitor</a>
+					<a href="#" class="btn btn-default">Report via email</a>
+					<a href="#" class="btn btn-default bottone-info">Info</a>
+					<a href="#" class="btn btn-default">Esci</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 footer-site">
+					<p>MangoPi monitor ** Location: Via Gassendi 1/A Milano ** Copyright (c) 2015</p>
+				</div>
+			</div>
+		</div>	
+		
+		<!-- Inclusione script -->
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script type="text/javascript">
+			// begin showing modal
+			$(document).ready(function() {
+				$(".bottone-info").click(function(){
+					alert( 'Statistiche del RaspberryPI di Anna, conosciuto come MangoPI :-)');;
+    			}); 
+			});
+		</script>
+	</body>
+</html>
