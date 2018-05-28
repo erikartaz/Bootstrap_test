@@ -1,6 +1,7 @@
-<h3>Test del webframework Bootstrap 3.x</h3>
+<h1>Test del webframework Bootstrap 3.x</h1>
 
-Semplicemente una app di test con bootstrap 3.x applicata ad un monitor di risorse del Raspberrypi2 (Mango) collegato su linea Fastweb a 20MB.
+<h2>Sottotitolo</h2>
+Semplicemente una app di test con bootstrap 3.x applicata ad un monitor di risorse del Raspberrypi2 (Mango) collegato su linea Fastweb a 100MB.
 
 Questa è una linea aggiunta il locale. Vediamo se sincronizza con GITHUB.
 
@@ -9,6 +10,3 @@ Questa è una linea aggiunta il locale. Vediamo se sincronizza con GITHUB.
 - punto 3
 
 "Ciao come stai? vediamo come si formatta tra virgolette"
-
-# Fine del documento
-
